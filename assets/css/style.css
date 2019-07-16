@@ -1,0 +1,269 @@
+
+/* G E R A L */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+  margin: auto;
+  max-width: 705px;
+}
+
+
+/* H E A D E R */
+
+.header {
+  background-color: #FBE200;
+  padding: 8px 4%;
+}
+
+.headerLeft,
+.headerRight {
+  display: inline-block;
+  width: 49.3%;
+}
+
+.headerRight {
+  text-align: right;
+  vertical-align: top;
+}
+
+/* LOGO */
+.headerLogo-img {
+  height: auto;
+  width: 75px;
+}
+
+/* MENU */
+.headerMenu-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 7px 2px;
+  position: relative;
+}
+
+.menuBtn-cont {
+  background-color: #DD0000;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 0 6px;
+  position: absolute;
+
+  right: 18px;
+  top: 24px;
+}
+
+.menuBtn-icon {
+  display: inline-block;
+}
+
+.menuBtn-icon--line {
+  background-color: black;
+  border-radius: 10px;
+  height: 5px;
+  margin: 5px 0;
+  width: 29px;
+}
+
+.menu-content {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 69px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.menu-content--show {display: block;}
+
+.menuContent-product {
+  background-color: #C0AC00;
+  border-top: 2px solid #D6C000;
+  padding: 15px 4% 14px;
+}
+
+.product-info {
+  display: inline-block;
+  height: 75px;
+  padding-left: 10px;
+  vertical-align: top;
+  width: 60%;
+}
+
+.product-img {
+  border: 1px solid black;
+  display: inline-block;
+  height: auto;
+  width: 75px;
+}
+
+.product-info-name {
+  color: #fff;
+  font-size: 15px;
+  padding-bottom: 6px;
+}
+
+.product-info-price {
+  display: block;
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+.product-remove {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 26%;
+}
+
+.product-remove-btn {
+  background-color: transparent;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 4px 4px 4px;
+}
+
+/* SUBTOTAL */
+.menu-content {
+  background-color: #D6C000;
+}
+
+.js__menu-content {text-align: left;}
+
+.menu-content__subtotal {
+  padding: 15px 4%;
+  text-align: right;
+}
+
+.menu-content__title {
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+
+.menu-content__price {
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+/* P R O D U C T */
+
+.product {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 25px 7px;
+  padding: 15px 10px 10px;
+}
+
+/* IMAGE */
+.product__image {
+  display: inline-block;
+}
+
+.product__image__select {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image__select__btn {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin: 5px 0;
+  padding: 3px 3px 2px;
+}
+
+.image__select__btn--selected {border-color: #FBE200}
+
+.image__select__img {
+  height: auto;
+  width: 30px;
+}
+
+.product__image__principal {
+  height: auto;
+  padding: 0 30px;
+  width: 180px;
+}
+
+/* INFO */
+.product__info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product__info__name {
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 8px;
+  max-width: 370px;
+}
+
+.product__info__price {
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.info__prince__bestPrice {
+  background-color: #3970E6;
+  border-radius: 2px;
+  color: #fff;;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 8px 5px;
+  text-transform: uppercase;
+}
+
+.info__price__installments {
+  color: #00C74D;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.info__price__installmentsValue {
+  font-size: 26px;
+}
+
+.info__price__cash {
+  font-weight: 500;
+  font-size: 14px;
+  color: #747474;
+}
+
+.info__price__cashValue {
+  color: #00C74D;
+  font-size: 16px;
+}
+
+.product__info__btn {
+  background-color: #00C74D;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 38px 20px;
+  padding: 7px 7px 8px;
+  vertical-align: top;
+}
